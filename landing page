@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Website</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        /* Hero Section */
+        #hero {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+       
+        #products {
+            background-color: #fff;
+        }
+        .product {
+            display: inline-block;
+            width: 200px;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin-top: 10px;
+        }
+        .product p {
+            color: #666;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Our Online Store</h1>
+        <p>Discover a wide range of products at great prices.</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.2sPho9Ap9enWE_PKzlJXwwHaE8&pid=Api&P=0&h=180" >
+            
+        </div>
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.fuUkPW_OvlrCUCugRnuASwHaEw&pid=Api&P=0&h=180" >
+        </div>
+        <div class="product">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.dc3LL5FYXX2bdQfoPMLl_wHaFe&pid=Api&P=0&h=180" >
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>onlineshopping@gmail.com</p>
+        <p>Have a question? Reach out to us!</p>
+    </section>
+
+</body>
+</html>
